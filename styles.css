@@ -1,0 +1,195 @@
+/* .luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.shantell-sans-title {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BNCE" 0,
+      "INFM" 0,
+      "SPAC" 0;
+  } */
+
+
+
+body {
+    background-color: #8ccdf9;
+    margin: 0;
+    
+}
+
+.header {
+    background-color: #8de6a6;
+    border: 5px solid #9fa4a9;
+    width: 100%;
+    margin: 0px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border-radius: 50%; */
+}
+.sub-head {
+    
+}
+
+h1 {
+    display: flex;
+    font-size: 54px;
+
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    color: #15084a;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+
+    font-size: 28px;
+
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BNCE" 0,
+      "INFM" 0,
+      "SPAC" 0;
+
+    color: #1c0a62;
+}
+
+h3 {
+    display: flex;
+
+    font-size: 20px;
+
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BNCE" 0,
+      "INFM" 0,
+      "SPAC" 0;
+
+    color: #160a48;
+}
+
+h4 {
+    font-size: 18px;
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BNCE" 0,
+      "INFM" 0,
+      "SPAC" 0;
+    color: #0f023f;
+
+}
+
+/* div {
+    border: 2px solid red;
+} */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* NAVBAR */
+.nav {
+    background-color: #190759;
+    padding-right: 100px;
+    margin-right: 100px;
+    width: 20%;
+
+    
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ul {
+    background-color: #110246;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* justify-content: space-between; */
+    align-items: center;
+    position: static;
+}
+
+li.nav-but {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: flex-start;
+    /* align-content: space-between ; */
+
+
+    font-size: 16px;
+    background-color: #0f023f;
+
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 5px;
+    border: 2px solid #0f023f;
+    border-radius: 30%;
+
+    list-style-type: none;
+}
+
+li.nav-but :hover {
+    font-size: 16px;
+    background-color: #65c0fd;
+
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 5px;
+    /* border: 2px solid #0f023f; */
+
+    list-style-type: none;
+    border-radius: 10%;
+}
+a:visited {
+    color: hotpink;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.info-img{
+    width: 100%;
+}
+
