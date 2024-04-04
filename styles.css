@@ -1,18 +1,3 @@
-/* .luckiest-guy-regular {
-    font-family: "Luckiest Guy", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-.shantell-sans-title {
-    font-family: "Shantell Sans", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "BNCE" 0,
-      "INFM" 0,
-      "SPAC" 0;
-  } */
 
 
 
@@ -35,9 +20,6 @@ body {
     align-items: center;
 
     /* border-radius: 50%; */
-}
-.sub-head {
-    
 }
 
 .logo {
@@ -123,20 +105,26 @@ h4 {
     background-color: #190759;
     padding-right: 100px;
     margin-right: 100px;
-    width: 20%;
+    width: 25%;
     height: max-content;
 
     
     display: flex;
     flex-direction: row;
-    /* align-items: flex-start; */
-    justify-content: space-around;
+    align-content: space-between;
+    justify-content: space-between;
     align-items: center;
 
 }
 
+/* #spacer-container {
+    border: 2px solid red;
+    width: 50%;
+} */
+
 ul {
     background-color: #110246;
+
     padding: 20px;
     margin-left: 0px;
     margin-top: 0;
@@ -151,10 +139,13 @@ ul {
     position: static;
 }
 
+
 li.nav-but {
     width: 100%;
     margin: 0px;
-    padding: 0px;
+    margin-bottom: 20px;
+    padding: 50px;
+    padding-bottom: 50px;
 
     display: flex;
     flex-direction: column;
