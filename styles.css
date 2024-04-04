@@ -17,13 +17,15 @@
 
 
 body {
-    background-color: #8ccdf9;
+    background-color: #a0d1f2;
+    /* background-color: #8ccdf9; */
     margin: 0;
     
 }
 
 .header {
-    background-color: #8de6a6;
+    background-color: #a2e8b5;
+    /* background-color: #8de6a6; */
     border: 5px solid #9fa4a9;
     width: 100%;
     margin: 0px;
@@ -47,7 +49,7 @@ body {
 
 h1 {
     display: flex;
-    font-size: 54px;
+    font-size: 64px;
 
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
@@ -122,6 +124,7 @@ h4 {
     padding-right: 100px;
     margin-right: 100px;
     width: 20%;
+    height: 100%;
 
     
     display: flex;
@@ -206,6 +209,13 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.poster {
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-self: center;
 }
 
 
