@@ -197,6 +197,16 @@ a:visited {
 }
 
 .info-img{
-    width: 100%;
+    width: 30%;
+    justify-content: center;
+    padding: 20px;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 
