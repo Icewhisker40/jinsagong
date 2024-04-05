@@ -102,7 +102,7 @@ h4 {
 
 /* NAVBAR */
 .nav {
-    background-color: #190759;
+    background-color: #6d59b5;
     padding-right: 100px;
     margin-right: 100px;
     width: 25%;
@@ -123,8 +123,8 @@ h4 {
 } */
 
 ul {
-    background-color: #110246;
-
+    
+    background-color: #92fbf0;
     padding: 20px;
     margin-left: 0px;
     margin-top: 0;
@@ -185,6 +185,8 @@ li.nav-but :hover {
 a:visited {
     color: hotpink;
 }
+
+
 
 .content {
     margin-left: 20px;
