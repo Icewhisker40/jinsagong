@@ -23,7 +23,7 @@ body {
 }
 
 .logo {
-    width: 100px;
+    width: 8rem;
     margin-right:2%;
     display: flex;
     align-self: flex-end;
@@ -31,8 +31,9 @@ body {
 
 h1 {
     display: flex;
-    font-size: 70px;
-
+    font-size: 64px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
     font-style: normal;
@@ -185,7 +186,7 @@ li.nav-but:hover {
     transition: all 0.5s ease;
 }
 a:visited {
-    color: hotpink;
+    color: #cc15e0;
 }
 
 
@@ -236,3 +237,16 @@ justify-content: space-around;
     background-color: white;
     border-radius: 0.5rem;
 }
+
+.qr-code {
+    width: 8rem;
+    height: 8rem;
+}
+
+.header-container-imgs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 2rem;
+    }
