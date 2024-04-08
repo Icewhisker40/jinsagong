@@ -155,7 +155,7 @@ li.nav-but {
 
 
     font-size: 16px;
-    background-color: #0f023f;
+    background-color: #f5f9fa;
 
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
@@ -168,8 +168,8 @@ li.nav-but {
     list-style-type: none;
 }
 
-li.nav-but :hover {
-    font-size: 16px;
+li.nav-but:hover {
+    /* font-size: 16px;
     background-color: #65c0fd;
 
     font-family: "Luckiest Guy", cursive;
@@ -177,10 +177,12 @@ li.nav-but :hover {
     font-style: normal;
 
     padding: 5px;
-    /* border: 2px solid #0f023f; */
+   
 
     list-style-type: none;
-    border-radius: 10%;
+    border-radius: 10%; */
+    transform: scale(1.075);
+    transition: all 0.5s ease;
 }
 a:visited {
     color: hotpink;
@@ -194,7 +196,7 @@ a:visited {
 }
 
 .info-img{
-    width: 30%;
+    width: 40%;
     height: 50%;
     justify-content: center;
     padding: 20px;
@@ -221,4 +223,16 @@ a:visited {
 }
 
 
+.container {
+display: flex;
+justify-content: space-around;
+}
 
+
+
+.news-p-container {
+    border: white 2px solid;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
