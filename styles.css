@@ -261,3 +261,6 @@ justify-content: space-around;
 .hnpc_list {
     width:100% ;
 }
+.hnpc_contact {
+    font-size: 2rem;
+}
