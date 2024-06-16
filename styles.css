@@ -97,7 +97,7 @@ h4 {
 .main {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 100%;
 }
 
@@ -244,9 +244,20 @@ justify-content: space-around;
 }
 
 .header-container-imgs {
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
+     justify-content: space-between; 
     width: 100%;
     align-items: center;
     padding: 2rem;
     }
+.hnpc_logo {   
+    width: 15rem
+}
+.hnpc_header {
+    padding-left: 1.25rem;
+}
+
+
+.hnpc_list {
+    width:100% ;
+}
