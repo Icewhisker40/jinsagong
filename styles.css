@@ -274,11 +274,27 @@ justify-content: space-around;
 
 .youtube_vid {
     margin: 1rem 0 1rem 0;
-    /* width: 100%; */
+    width: 100%;
     /* border: red solid 1px; */
     /* display: flex; */
-
     
+}
+@media screen and (max-width: 800px) {
+    .youtube_vid {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .youtube_vid {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .youtube_vid {
+        height: 800px;
+    }
 }
 
 #hnpc-header {
@@ -291,11 +307,9 @@ justify-content: space-around;
 }
 
 .hnpc-about {
+    width: 75%;
     /* width: 100%;
     display: flex;
     justify-content: space-between; */
 }
 
-.hnpc-about-left {
-
-}
