@@ -307,9 +307,24 @@ justify-content: space-around;
 }
 
 .hnpc-about {
-    width: 75%;
+    width: 90%;
     /* width: 100%;
     display: flex;
     justify-content: space-between; */
+}
+
+.poem {
+    margin: 0;
+    color: rgb(28, 30, 168);
+}
+
+.poem-title {
+    /* color: red; */
+    font-size: 2rem;
+}
+
+.poem-author {
+    font-style: italic;
+    margin-left: 10rem;
 }
 
